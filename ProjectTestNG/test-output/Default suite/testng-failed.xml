@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGTutorial.testSuit">
+      <class name="TestNGTutorial.LoginCredintial">
         <methods>
-          <include name="testSuitThree"/>
+          <include name="browserClose"/>
+          <include name="BeforeActions"/>
+          <include name="wrongCredential"/>
         </methods>
-      </class> <!-- TestNGTutorial.testSuit -->
+      </class> <!-- TestNGTutorial.LoginCredintial -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

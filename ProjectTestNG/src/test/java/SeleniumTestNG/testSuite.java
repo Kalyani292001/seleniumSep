@@ -1,4 +1,4 @@
-package TestNGTutorial;
+package SeleniumTestNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -7,8 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testSuit {
-
+public class testSuite {
 	@Test
 	// program 1
 	public void testSuitOne() {
@@ -72,8 +71,10 @@ public class testSuit {
 		// driver.close();
 	}
 
+	
+	
 	// program 5
-
+	// verify title
 	@Test
 	public void testSuitFive() {
 

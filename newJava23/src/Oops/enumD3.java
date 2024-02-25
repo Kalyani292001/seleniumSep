@@ -29,8 +29,6 @@ class Test1{
 	}
 	
 	public void displayDaysname(){
-		
-		
 		switch(day) {
 		case SUN:
 			System.out.println("Sunday");

@@ -38,25 +38,22 @@ public class threeDimArr {
 			int w = 0;
 			while (w < num.length) {
 				int[] num1 = num[w];
-
+				
 				int q = 0;
 				while (q < num1.length) {
 					System.out.println(num1[q]);
 					q++;
 				}
 				w++;
-
 			}
 			i++;
 		}
-		
-		
-		
-	// for Each loop
-		
-		for(int[][] num2:numbersE) {
-			for(int[] num3:num2) {
-				for(int num4:num3) {
+
+		// for Each loop
+
+		for (int[][] num2 : numbersE) {
+			for (int[] num3 : num2) {
+				for (int num4 : num3) {
 					System.out.println(num4);
 				}
 			}

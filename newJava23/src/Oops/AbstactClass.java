@@ -20,8 +20,7 @@ public class AbstactClass {
 abstract class worldBank{
 	 
 	 public abstract void save();
-	 public abstract void loan();
-	 
+	 public abstract void loan(); 
 }
 
 

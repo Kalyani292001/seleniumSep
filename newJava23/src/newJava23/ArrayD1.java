@@ -69,8 +69,6 @@ public class ArrayD1 {
 				}
 
 				int t2 = 0;
-
-
 				while(t2 < cities.length) {
 					System.out.println(cities[t2]);
 					t2 ++;
@@ -106,12 +104,19 @@ public class ArrayD1 {
 				System.out.println(numbersB[1][1]);
 
 				// numbersJ
-
-				for(int i = 0 ; i < numbersJ.length ; i++) {
-					int [] ray = numbersJ[i];
-					for(int j = 0 ; j < ray.length ; j++) {
-						System.out.println(ray[j]);
-					}
+//				for(int i = 0 ; i < numbersJ.length ; i++) {
+//					int [] ray = numbersJ[i];
+//					for(int j = 0 ; j < ray.length ; j++) {
+//						System.out.println(ray[j]);
+//					}
+//				}
+//				
+			for(int i=0;i<numbersJ.length;i++) {
+				int [] second=numbersJ[i];
+				for(int j=0;j<second.length;j++) {
+				System.out.println(second[j]);
+				}
+					
 				}
 	}
 

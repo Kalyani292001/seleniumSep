@@ -24,7 +24,7 @@ public class mouseActions {
 	}
 
 	@Test
-	public void dranAndDrop() {
+	public void drapAndDrop() {
 
 		WebElement drag = driver.findElement(By.id("draggable"));
 		WebElement drop = driver.findElement(By.id("droppable"));
@@ -71,11 +71,6 @@ public class mouseActions {
 		
 	}
 	
-	
-	
-	
-	
-
 	@AfterMethod
 	public void browserClose() {
 		driver.close();

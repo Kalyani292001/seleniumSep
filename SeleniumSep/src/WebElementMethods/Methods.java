@@ -31,7 +31,6 @@ public class Methods {
 		}
 
 		// isSelected() // click()
-
 		WebElement ele2 = driver.findElement(By.cssSelector("input[value=\"green\"]"));
 		ele2.click();
 		if (ele2.isSelected()) {
@@ -41,7 +40,6 @@ public class Methods {
 		}
 
 		// isEnabled()
-
 		WebElement ele3 = driver.findElement(By.cssSelector("input[value=\"cabbage\"]"));
 		if (ele3.isEnabled()) {
 			System.out.println("testcase 4 pass");
@@ -50,7 +48,6 @@ public class Methods {
 		}
 
 		// getSize();
-
 		WebElement ele4 = driver.findElement(By.cssSelector("div[class=\"thumbnail\"]"));
 		Dimension heightWeight = ele4.getSize();
 		driver.manage().window().maximize();
@@ -58,7 +55,6 @@ public class Methods {
 		System.out.println(ele.getSize());
 
 		// getAttribute()
-
 		WebElement ele5 = driver.findElement(By.id("main-header"));
 		String classValue = ele5.getAttribute("class");
 		System.out.println(classValue);
@@ -68,9 +64,8 @@ public class Methods {
 		System.out.println(fontSizeValue);
 
 		// getTagName()
-
 		String tg = ele.getTagName();
 		System.out.println(tg);
+		
 	}
-
 }

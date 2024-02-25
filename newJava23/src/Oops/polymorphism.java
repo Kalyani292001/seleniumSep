@@ -39,11 +39,9 @@ class CalculatorA{
 	public void Addition(int x,int y) {
 		System.out.println(x+y);
 	}
-	
 	public void Addition(int x,int y , int z) {
 		System.out.println(x+y+z);
 	}
-	
 	public void Addition(int x,int y,int z , int e) {
 		System.out.println(x+y+z+e);
 	}
@@ -60,13 +58,11 @@ class PersonL{
 
 	public  PersonL(int x,int y) {
 		System.out.println("default constructor with two parameter"+ (x+y));
-	
 	}
 	
 	public  PersonL() {
 		System.out.println("default constructor");
 	}
-	
 }
 
 
@@ -74,9 +70,7 @@ class PersonL{
 
 // same method same signature different class
 
-class MotherG{
-	
-	
+class MotherG{	
 	String MName;
 	String lastName;
 	

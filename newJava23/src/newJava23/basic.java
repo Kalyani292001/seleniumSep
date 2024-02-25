@@ -52,26 +52,19 @@ public static void  Calculator(int x , int y) {
 		System.out.println(x*y);
 		System.out.println(x/y);
 		System.out.println(x%y);
-		
-		
-		
-		
 	}
 	
 	// function without parameter and without return type 
-	
 	public static void AdditionA() {
 		System.out.println(9+9);
 	}
 	
 	// function with parameter and without return type
-	
 	public static void AdditionB(int x , int y) {
 		System.out.println(x+y);
 	}
 	
 	// function with parameter and with return type 
-	
 	public static int AdditionC(int x , int y) {
 		return x + y;
 	}

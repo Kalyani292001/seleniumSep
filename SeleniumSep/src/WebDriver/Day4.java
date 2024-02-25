@@ -66,9 +66,6 @@ public class Day4 {
 //		else {
 //			System.out.println("Testcase fail");
 //		}
-//		
-		
-		
+//			
 	}
-
 }

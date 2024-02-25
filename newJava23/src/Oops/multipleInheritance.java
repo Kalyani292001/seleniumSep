@@ -41,9 +41,7 @@ interface B{
 	
 }
 
-
 class rule implements A,B{
-
 	@Override
 	public void RuleF() {
 		// TODO Auto-generated method stub
@@ -103,5 +101,4 @@ class rule implements A,B{
 		// TODO Auto-generated method stub
 		System.out.println("RuleE");
 	}
-	
 }

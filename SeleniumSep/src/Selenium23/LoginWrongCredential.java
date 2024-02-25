@@ -30,7 +30,6 @@ public class LoginWrongCredential {
 		} else {
 			System.out.println("test case fail");
 		}
-
 		driver.close();
 	}
 

@@ -63,7 +63,8 @@ public class testSuite {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.webdriveruniversity.com/");
 		WebElement ele = driver.findElement(By.cssSelector("#scrolling-around"));
-		String setAtrr = "arguments[0].setAttribute('data_set','scroll_view')";
+		//String setAtrr = "arguments[0].setAttribute('data_set','scroll_view')";
+		String setAtrr="argument[0].setAttribute('data_set','scroll_view')";
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		je.executeScript(setAtrr, ele);
 		String newAtrr = ele.getAttribute("data_set");

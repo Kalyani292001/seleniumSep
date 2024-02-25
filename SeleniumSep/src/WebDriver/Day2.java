@@ -66,8 +66,6 @@ public class Day2 {
 		
 		// driver quit()
 		// closes the all the browser handled by automation
-		
-		
 	}
 
 }

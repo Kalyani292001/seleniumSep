@@ -18,7 +18,7 @@ public class webElementD1 {
 //			WebElement comment =driver.findElement(By.cssSelector("textarea[name=\"message\"]"));
 //			WebElement submit=driver.findElement(By.cssSelector("input[type=\"submit\"]"));
 //			WebElement h2=driver.findElement(By.tagName("h2"));
-//			
+
 //			if(h2.isDisplayed()) {
 //				System.out.println("test case is pass");
 //			}else {
@@ -43,8 +43,6 @@ public class webElementD1 {
 		System.out.println(driver.findElement(By.cssSelector("input[value=\"lettuce\"]")).isSelected());
 		System.out.println(driver.findElement(By.cssSelector("input[value=\"cabbage\"]")).isEnabled());
 		System.out.println(driver.findElement(By.cssSelector("input[value=\"pumpkin\"]")).isEnabled());
-
 		driver.quit();
 	}
-
 }

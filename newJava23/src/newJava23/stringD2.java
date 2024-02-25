@@ -33,8 +33,7 @@ public class stringD2 {
 			System.out.println(Name.charAt(i));
 		}
 		
-		
-
+	
 		int a = 2;
 		int b = 3;
 		String c = "Pune";
@@ -50,14 +49,11 @@ public class stringD2 {
 		
 		
 		// upperCase()
-
-		
-
 		String firstName = "ShreyA";
 		String UC = firstName.toUpperCase();
 		System.out.println(UC);
 
-        //LoerCase()
+        //LowerCase()
 		String firstNameA = "SHREAYA";
 		String LC = firstNameA.toLowerCase();
 		System.out.println(LC);
@@ -79,8 +75,6 @@ public class stringD2 {
 		boolean q4 = firstNameB.equals("aMruta");
 		boolean q5 = firstNameB.equals("amruta");
 		System.out.println(q5);
-		System.out.println(q4);
-		
+		System.out.println(q4);	
 	}
-
 }

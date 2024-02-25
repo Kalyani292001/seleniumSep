@@ -5,10 +5,9 @@ public class stringD1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	// program 1
+	    // program 1
 		
 		String text = "I am learning java";
-	
 		
 		String textA = text.toUpperCase();
 		System.out.println(textA);
@@ -19,13 +18,11 @@ public class stringD1 {
 		int a = text.length();
 		System.out.println(a);
 	
-		
 		// program 2
 		
 		String firstName = "amol";
 		boolean q1 = firstName.equals("amol");
 		System.out.println(q1);
-		
 		
 		firstName = "amol";
 		boolean q2 = firstName.equalsIgnoreCase("Amol");
@@ -53,9 +50,7 @@ public class stringD1 {
 	
 		
 		// Program 3
-		
 		String r1 = "I am learning javascript and javascript is great";
-		
 		String q7 = r1.replace("I", "W");
 		String q8 = r1.replaceFirst("javascript", "python");
 		String q9 = r1.replaceAll("javascript", "python");
@@ -65,14 +60,13 @@ public class stringD1 {
 		System.out.println(q9);
 		
 		String r2 = "kalyani"; 
-		
 		char [] r3 = r2.toCharArray();
 		for(int i = 0 ; i < r3.length ; i++) {
 			System.out.println(r3[i]);
 		}
 		
 		// program 4
-	
+		
 		String firstNameN = "kalyani";
 		String lastNameN = "hadole";
 		
@@ -80,6 +74,7 @@ public class stringD1 {
 		System.out.println(q10);
 		String q11 =  String.join("@", lastNameN,firstNameN);
 		System.out.println(q11);
+		
 		
 		
 		boolean q13 = "".isEmpty();
@@ -90,7 +85,6 @@ public class stringD1 {
 		
 		boolean q15 = firstNameN.endsWith("ni");
 		System.out.println(q15);
-		
 	}
 
 }

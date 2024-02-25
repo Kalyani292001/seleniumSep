@@ -12,35 +12,31 @@ public class Day3 {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\hello\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		
-		
+
 		driver.get("http://www.webdriveruniversity.com");
 		driver.findElement(By.cssSelector("#contact-us")).click();
-		
+
 		String parentWindow = driver.getWindowHandle();
 		System.out.println(parentWindow);
-		
-		Set<String>windowIds = driver.getWindowHandles();
+
+		Set<String> windowIds = driver.getWindowHandles();
 		System.out.println(windowIds);
-		
-		
-		for(String id:windowIds) {
+
+		for (String id : windowIds) {
 			System.out.println(id);
-			if(id != parentWindow) {
+			if (id != parentWindow) {
 				driver.switchTo().window(id);
 				System.out.println(driver.getCurrentUrl());
 			}
 		}
-		
-		
-		boolean ele = driver.findElement(By.cssSelector("#contact_me > div > div:nth-child(1) > div > h2")).isDisplayed();
+
+		boolean ele = driver.findElement(By.cssSelector("#contact_me > div > div:nth-child(1) > div > h2"))
+				.isDisplayed();
 		System.out.println(ele);
-	
+
 		driver.switchTo().window(parentWindow);
 		System.out.println(driver.getCurrentUrl());
-		
-		
-		
+
 	}
 
 }

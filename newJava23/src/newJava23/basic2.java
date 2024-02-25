@@ -72,7 +72,6 @@ public class basic2 {
 				} else if (numT > 5 && numT <= 10) {
 					System.out.println("20 % discount");
 				}
-
 				else if (numT > 10) {
 					System.out.println("30 % discount");
 				} else {
@@ -88,12 +87,10 @@ public class basic2 {
 //				}
 //				if(marks > 75) {
 //					System.out.println("Grade B");
-//				}
-//					
+//				}	
 //				if(marks > 65) {
 //					System.out.println("Grade C");
-//				}
-					
+//				}	
 //				if(marks > 90) {
 //					System.out.println("Grade A");
 //				}
@@ -133,8 +130,7 @@ public class basic2 {
 				int x1 = 80;
 				int x2 = 500;
 				int x3 = 4330;
-				
-				
+			
 				if(x1 > x2 && x1 > x3) {
 					System.out.println("x1 is greater");
 				}

@@ -64,13 +64,11 @@ public class list {
 
 
 				// size()
-
 				int aa = names2.size();
 				System.out.println(aa);
 				System.out.println(names2);
 
 				// sort()
-
 				Collections.sort(names2);
 				System.out.println(names2);
 
@@ -94,6 +92,33 @@ public class list {
 				boolean ia2 = names3.contains("sham");
 				System.out.println(ia2);
 
+				
+				ArrayList<String> cities= new ArrayList<String>();
+				
+				// add the data
+				
+				cities.add("pune");
+				cities.add("mumbai");
+				cities.add("thane");
+				cities.add("nashik");
+				
+				// for retrive the data
+				
+				System.out.println(cities.get(2));
+				System.out.println(cities.get(1));
+				
+				// update the data
+				
+				cities.set(2, "Nagapur");
+				System.out.println(cities);
+				
+				// detete the specific data
+				
+				cities.remove(3);
+				System.out.println(cities);
+				
+				
+				
 
 
 

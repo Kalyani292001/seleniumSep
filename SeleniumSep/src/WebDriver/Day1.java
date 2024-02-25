@@ -25,14 +25,9 @@ public class Day1 {
 		String url = driver.getCurrentUrl();
 		if(url.contains("inventory")) {
 			System.out.println("Test case pass");
+		}else {
+			System.out.println("Test Case Fail");
 		}
-		
-		
-		
-		
-		
-		
-		
 		
 		// findElement 
 		WebElement e = driver.findElement(By.cssSelector(".login_logo"));
@@ -44,12 +39,11 @@ public class Day1 {
 		
 //		String title = driver.getTitle();
 //		if(title.equals("Swag Labs")) {
-//			System.out.println("Testcase pass");
+//			System.out.println("TestCase pass");
 //		}
 //		else {
-//			System.out.println("Testcase fail");
+//			System.out.println("TestCase fail");
 //		}
-		
 	}
 
 }

@@ -15,9 +15,7 @@ public class ExtendsImplement {
 }
 
 interface cityname{
-	
 	public void CityName();
-	
 }
 
 
@@ -30,7 +28,6 @@ class Grandfather{
 		this.Gname=gn;
 		this.lastname=ln;
 	}
-	
 	public void displayGname(){
 		System.out.println(this.Gname+ " " +this.lastname);
 	}

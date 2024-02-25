@@ -40,9 +40,8 @@ public class ExceptionHandling {
 //
 //		} catch (Exception e) {
 //			System.out.println(e.getMessage());
-//
 //		}
-//
+
 //		System.out.println("bye");
 
 		System.out.println("hello2");

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGTutorial.LoginCredintial">
+      <class name="SeleniumTestNG.testSuit1">
         <methods>
-          <include name="browserClose"/>
-          <include name="BeforeActions"/>
-          <include name="wrongCredential"/>
+          <include name="TetsSuitOne"/>
+          <include name="ArrowActions"/>
         </methods>
-      </class> <!-- TestNGTutorial.LoginCredintial -->
+      </class> <!-- SeleniumTestNG.testSuit1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
